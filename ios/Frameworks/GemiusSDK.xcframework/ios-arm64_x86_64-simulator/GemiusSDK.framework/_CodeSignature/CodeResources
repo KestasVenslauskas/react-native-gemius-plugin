@@ -34,7 +34,7 @@
 		</data>
 		<key>Headers/Config.h</key>
 		<data>
-		w6T3s1SQgJTr3HFZFU1+mJwpDSw=
+		KLqtSWtfUZ8UjQHQRu1wwrKrWys=
 		</data>
 		<key>Headers/ContentData.h</key>
 		<data>
@@ -86,21 +86,21 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		wEiZogMU91QSZcKuP1S1LBNkgmY=
+		34ybEAi3gqx+ZPXUZaqRQ9CXAuA=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
-		wbpu4/D4o1MEAot+URJr61eGPyg=
+		RGcjaDkhHa3/xycp0mH+V18tygE=
+		</data>
+		<key>PrivacyInfo.xcprivacy</key>
+		<data>
+		nOhY2TABBsjCwzVCqFHSjm3lAD4=
 		</data>
 	</dict>
 	<key>files2</key>
 	<dict>
 		<key>Headers/AdData.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			HCav3DGl3Ww0tTKwqWg4Sx2tN18=
-			</data>
 			<key>hash2</key>
 			<data>
 			o9m/mi1yeWdGod/FZ9dYnsbwtoZ+YDZwhoEjdKxm7WQ=
@@ -108,10 +108,6 @@
 		</dict>
 		<key>Headers/AdDefine.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			P5Qs7kXpyj6Iw9ODw3CnmPXfzAE=
-			</data>
 			<key>hash2</key>
 			<data>
 			6jPrQM1oTkQFszvy+kF/1fstXgiFlodeaDbeZHsOFSA=
@@ -119,10 +115,6 @@
 		</dict>
 		<key>Headers/AdOceanConfig.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			v5rDR2pnQJpL0zC5q3x3X3daY0s=
-			</data>
 			<key>hash2</key>
 			<data>
 			XMWunZ1v1TOi+hF+X/tDuPvHqrDIUkHTkmrt/2LNeAU=
@@ -130,10 +122,6 @@
 		</dict>
 		<key>Headers/AudienceConfig.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			YPXTJqIedfdGi1wxYWxsCjYOxn0=
-			</data>
 			<key>hash2</key>
 			<data>
 			eJgg9eM1g/XN4ETFg7xRSyr5Trbqrd9xU0km/5rIQTg=
@@ -141,10 +129,6 @@
 		</dict>
 		<key>Headers/AudienceEvent.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			FhPZWLpD5LmspmO+4kvf7iMC+vg=
-			</data>
 			<key>hash2</key>
 			<data>
 			OaQxsgAgNbBkh++HWBsyDdDeZYxsupHlvZTkET30vuQ=
@@ -152,10 +136,6 @@
 		</dict>
 		<key>Headers/BaseConfig.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			a9hwWjaZ5KZ+jS8wXyr5Zu3jK+g=
-			</data>
 			<key>hash2</key>
 			<data>
 			pUwb5yoNvqeiPgMDWsRYylxbYostjLab408mfw+EI04=
@@ -163,10 +143,6 @@
 		</dict>
 		<key>Headers/BaseEvent.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			BASTXTMlrxFRxsj+5UzARFwwDjc=
-			</data>
 			<key>hash2</key>
 			<data>
 			MYy25atk1Pd20PKKSBIS7VwdvapxAPCD24oxCcSgFpg=
@@ -174,21 +150,13 @@
 		</dict>
 		<key>Headers/Config.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			w6T3s1SQgJTr3HFZFU1+mJwpDSw=
-			</data>
 			<key>hash2</key>
 			<data>
-			mVQ49iKXFosMaKBTiB0maaU85rfj+VSgEw7qKrpl+kY=
+			pXUMAGwI8rzkhwfRj6yeYjhmKRSJesBBm0fq+r7Agiw=
 			</data>
 		</dict>
 		<key>Headers/ContentData.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			n740Y6LrozVGSsi6sYIOKtaydJc=
-			</data>
 			<key>hash2</key>
 			<data>
 			OCC8D+WUE2XPgUQF95yzJHvyZ//3RqlabXD5ITAb4hE=
@@ -196,10 +164,6 @@
 		</dict>
 		<key>Headers/EventAdData.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			9IK2OyvcDACRKEE32elIIw4vhIY=
-			</data>
 			<key>hash2</key>
 			<data>
 			/C1O0Iaatygka18HyrSRWmoKfuX8AiFBXccf1YukJp8=
@@ -207,10 +171,6 @@
 		</dict>
 		<key>Headers/EventData.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			WTdh10n0EBD1ur/pjnCFMmDakPE=
-			</data>
 			<key>hash2</key>
 			<data>
 			ydmBjwlDzq3KFQ45rp5lsjgF4zHIw1FORtXXcZU25VY=
@@ -218,10 +178,6 @@
 		</dict>
 		<key>Headers/EventProgramData.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			c6JqoRY+iWp6f9L27JQGT8I9VMs=
-			</data>
 			<key>hash2</key>
 			<data>
 			d0Nwx5F1xL0x8r74WjXm8sr3vzG5OBFtgLXorQuf4eU=
@@ -229,10 +185,6 @@
 		</dict>
 		<key>Headers/GEMBillboardAd.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			YrcXLtfKg26L5C+YRt1c0mVabTk=
-			</data>
 			<key>hash2</key>
 			<data>
 			+w2jZmEYHQGjLS6AJZBNWW/mHlqqR0XmBNQtK/IwMYU=
@@ -240,10 +192,6 @@
 		</dict>
 		<key>Headers/GEMFullScreenAd.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			xn66f/IbXCc5Fi00XFUZ2238vAM=
-			</data>
 			<key>hash2</key>
 			<data>
 			yn+vHimqNncrptwErk/nhtpfKS3mEVSjjTbVI5RqdVU=
@@ -251,10 +199,6 @@
 		</dict>
 		<key>Headers/GemiusSDK.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			l1h1CHHxPsCvHlXS/KwjJ3XxjZI=
-			</data>
 			<key>hash2</key>
 			<data>
 			o3yQgGllSBmT+Sj8f5y1bsolxtkNvutxURhQZvg6CEM=
@@ -262,10 +206,6 @@
 		</dict>
 		<key>Headers/NetpanelConfig.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			lRMq2e7mtQKFb0dWvQMcQo6HdtA=
-			</data>
 			<key>hash2</key>
 			<data>
 			fmqQ1J7KvZ2cfmp8ILO2PeyCqbS01Jp2HNu9eT9q9yI=
@@ -273,10 +213,6 @@
 		</dict>
 		<key>Headers/NetpanelEvent.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			dCaT64cqi8ymtdA0AEVLYJQYkLc=
-			</data>
 			<key>hash2</key>
 			<data>
 			zMNjrWezwo9saHovQ+BiKZQDgzY5fCWVmKhkd9w4le8=
@@ -284,10 +220,6 @@
 		</dict>
 		<key>Headers/Player.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			PKrWEZ+owAh1m6GnndVy50KwWp0=
-			</data>
 			<key>hash2</key>
 			<data>
 			6pp5C3qHZ89ozvJGV3ZMdartUhsvPjkq10YlnBSOLJY=
@@ -295,10 +227,6 @@
 		</dict>
 		<key>Headers/PlayerData.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			5p1yCOGgKtgEyD9BNpVCTRK4qkg=
-			</data>
 			<key>hash2</key>
 			<data>
 			+fYdi6hn9vb0F6EuXpMOgyEaHS87/kiSKrVcuIj2jC4=
@@ -306,10 +234,6 @@
 		</dict>
 		<key>Headers/ProgramData.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			SWGYzq6g0sB7mLXjqHQznZz0wqE=
-			</data>
 			<key>hash2</key>
 			<data>
 			g+vul+665CnIOPyObkXNeTcL6XcUGwYfma8nW5XrPt0=
@@ -317,13 +241,16 @@
 		</dict>
 		<key>Modules/module.modulemap</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			wbpu4/D4o1MEAot+URJr61eGPyg=
-			</data>
 			<key>hash2</key>
 			<data>
-			QtpVo0yXWF7jXRTJPfxsO+Pi/opXzG0VVSqFeEdxSrU=
+			EgEN/gVaSkV2JHPkbAv2q4daje8pW+EThc3bl58l+1I=
+			</data>
+		</dict>
+		<key>PrivacyInfo.xcprivacy</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			KMg4KXwEao862boxK5X+excseTyUa/TkIWIBRS0oDlo=
 			</data>
 		</dict>
 	</dict>
