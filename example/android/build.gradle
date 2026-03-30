@@ -20,8 +20,31 @@ buildscript {
 
 apply plugin: "com.facebook.react.rootproject"
 
+
+// Example of gemius.properties file content:
+// MAVEN_GEMIUS_USER=your_username
+// MAVEN_GEMIUS_PASSWORD=your_password
+
+def gemiusPropsFile = rootProject.file("gemius.properties")
+def gemiusProps = new Properties()
+if (gemiusPropsFile.exists()) {
+    gemiusProps.load(new FileInputStream(gemiusPropsFile))
+}
+
 allprojects {
+    ext.mavenGemiusUser = gemiusProps["MAVEN_GEMIUS_USER"]
+    ext.mavenGemiusPassword = gemiusProps["MAVEN_GEMIUS_PASSWORD"]
+
     repositories {
+        maven {
+            credentials {
+                username gemiusProps["MAVEN_GEMIUS_USER"]
+                password gemiusProps["MAVEN_GEMIUS_PASSWORD"]
+            }
+            url 'https://mobilesdk.gemius.com/releases/'
+        }
+        google()
+        mavenCentral()
         maven { url 'https://developer.huawei.com/repo/' }
     }
 }

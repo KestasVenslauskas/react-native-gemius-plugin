@@ -32,8 +32,25 @@ apply plugin: "kotlin-android"
 
 apply plugin: "com.facebook.react"
 
+if (!project.hasProperty("mavenGemiusUser") || !project.hasProperty("mavenGemiusPassword")) {
+  throw new GradleException(
+    "Missing Gemius Maven credentials. Please set 'mavenGemiusUser' and 'mavenGemiusPassword' " +
+    "in your project's gradle properties"
+  )
+}
+
 repositories {
-  maven { url 'https://developer.huawei.com/repo/' }
+  maven {
+    credentials {
+      username project.properties["mavenGemiusUser"] as String
+      password project.properties["mavenGemiusPassword"] as String
+    }
+    url 'https://mobilesdk.gemius.com/releases/'
+  }
+
+  maven {
+    url 'https://developer.huawei.com/repo/'
+  }
 }
 
 android {
@@ -70,19 +87,20 @@ dependencies {
   implementation "com.facebook.react:react-android"
 
   // Gemius SDK (local AAR)
-  implementation files('libs/mobile-sdk-2.3.0.aar')
+//  implementation files('libs/mobile-sdk-2.3.0.aar')
+  implementation "com.gemius:mobile-sdk:2.3.0"
 
   // Gemius SDK transitive dependencies
-  implementation "com.huawei.hms:ads-identifier:3.4.58.301"
-  implementation "com.google.code.gson:gson:2.11.0"
-  implementation "com.google.android.gms:play-services-base:18.7.2"
-  implementation "com.google.android.gms:play-services-ads:24.5.0"
-  implementation "com.google.android.gms:play-services-appset:16.1.0"
-  implementation "androidx.core:core:1.17.0"
-  implementation "androidx.preference:preference:1.2.1"
-  implementation "androidx.lifecycle:lifecycle-process:2.9.1"
-  implementation "com.squareup.retrofit2:retrofit:2.11.0"
-  implementation "com.squareup.retrofit2:converter-scalars:2.11.0"
-  implementation "com.squareup.okhttp3:logging-interceptor:4.12.0"
-  implementation "ch.acra:acra-http:5.7.0"
+//  implementation "com.huawei.hms:ads-identifier:3.4.58.301"
+//  implementation "com.google.code.gson:gson:2.11.0"
+//  implementation "com.google.android.gms:play-services-base:18.7.2"
+//  implementation "com.google.android.gms:play-services-ads:24.5.0"
+//  implementation "com.google.android.gms:play-services-appset:16.1.0"
+//  implementation "androidx.core:core:1.17.0"
+//  implementation "androidx.preference:preference:1.2.1"
+//  implementation "androidx.lifecycle:lifecycle-process:2.9.1"
+//  implementation "com.squareup.retrofit2:retrofit:2.11.0"
+//  implementation "com.squareup.retrofit2:converter-scalars:2.11.0"
+//  implementation "com.squareup.okhttp3:logging-interceptor:4.12.0"
+//  implementation "ch.acra:acra-http:5.7.0"
 }

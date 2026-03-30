@@ -10107,11 +10107,12 @@ __metadata:
     react: "npm:19.2.0"
     react-native: "npm:0.83.0"
     react-native-builder-bob: "npm:^0.40.18"
+    react-native-gemius-plugin: "workspace:*"
     react-native-monorepo-config: "npm:^0.3.3"
   languageName: unknown
   linkType: soft
 
-"react-native-gemius-plugin@workspace:.":
+"react-native-gemius-plugin@workspace:*, react-native-gemius-plugin@workspace:.":
   version: 0.0.0-use.local
   resolution: "react-native-gemius-plugin@workspace:."
   dependencies:
